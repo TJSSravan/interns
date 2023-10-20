@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="friendlyhavens.SharingHomeAvailDate"/>
+      <class name="friendlyhavens.RequestBooking"/>
+      <class name="friendlyhavens.FindaFriend"/>
+      <class name="friendlyhavens.ShareHomeAvailDest"/>
+      <class name="friendlyhavens.EditRecommendations"/>
+      <class name="friendlyhavens.EditAmenities"/>
+      <class name="friendlyhavens.PendingBooking"/>
+      <class name="friendlyhavens.ConfirmedBooking"/>
+      <class name="friendlyhavens.EntireHomeAvailDate"/>
+      <class name="friendlyhavens.EntireHomeAvailDest"/>
+      <class name="friendlyhavens.EditGiftRegistry"/>
+      <class name="friendlyhavens.EditMyHome"/>
+      <class name="friendlyhavens.Notifications"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

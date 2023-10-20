@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.listeners.IListenersClass"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="coinyodha.Choosecrypto"/>
+      <class name="coinyodha.pop"/>
+      <class name="coinyodha.TransferCrypto"/>
+      <class name="coinyodha.Signup"/>
+      <class name="coinyodha.CHistory"/>
+      <class name="coinyodha.Giftcards"/>
+      <class name="coinyodha.SellCrypto"/>
+      <class name="coinyodha.Login_Window_handle"/>
+      <class name="coinyodha.WithdrawC"/>
+      <class name="coinyodha.Buycrypto"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
